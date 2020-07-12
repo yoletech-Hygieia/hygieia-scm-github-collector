@@ -32,6 +32,10 @@ github.key=${GITHUB_KEY}
 #personal access token generated from github and used for making authentiated calls
 github.personalAccessToken=${PERSONAL_ACCESS_TOKEN}
 
+#============================================================ server setup
+server.port=${PORT:-8080}
+#============================================================ 
+
 EOF
 
 echo "
